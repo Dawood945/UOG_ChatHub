@@ -1,87 +1,95 @@
-#📁 Project Structure
+# 📁 Project Structure
 
 The project is organized into the following main directories:
 
-ai_chat/: AI chat interface.
+- **ai_chat/**: AI chat interface.
+- **backend/**: Backend server code.
+- **display/**: Display interface for games.
+- **frontend/**: Frontend client code.
+- **hangman/**: Hangman game.
+- **home_page/**: Homepage and "About Us" page.
+- **tic_tac_toe/**: Tic Tac Toe game.
 
-backend/: Backend server code.
+# ✨ Features
 
-display/: Display interface for games.
+- **Real-Time Messaging**: Chat with friends and groups in real-time.
+- **Group Chats**: Create and manage group chats.
+- **Notifications**: Receive alerts for new messages and friend requests.
+- **Interactive Games**: Enjoy games like Hangman and Tic Tac Toe.
+- **AI Chat**: Interact with a smart AI chatbot.
 
-frontend/: Frontend client code.
+# 🚀 Installation Guide
 
-hangman/: Hangman game.
+## 🔧 Backend Setup
 
-home_page/: Homepage and "About Us" page.
+1. Navigate to the backend directory:
+   ```bash
+   cd backend
+   ```
 
-tic_tac_toe/: Tic Tac Toe game.
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-#✨ Features
+3. Create a `.env` file and configure your environment variables.
 
-Real-Time Messaging: Chat with friends and groups in real-time.
+4. Start the backend server:
+   ```bash
+   npm run dev
+   ```
 
-Group Chats: Create and manage group chats.
+## 🔧 Frontend Setup
 
-Notifications: Receive alerts for new messages and friend requests.
+1. Navigate to the frontend directory:
+   ```bash
+   cd frontend
+   ```
 
-Interactive Games: Enjoy games like Hangman and Tic Tac Toe.
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-AI Chat: Interact with a smart AI chatbot.
+3. Create a `.env` file and configure your environment variables.
 
-#🚀 Installation Guide
+4. Start the frontend server:
+   ```bash
+   npm run dev
+   ```
 
-##🔧 Backend Setup
+### Usage
 
-Navigate to the backend directory:
+- Open your browser and navigate to `http://localhost:5173` to access the frontend.
+- Register or log in to start chatting with friends.
+- Explore features like group chats, notifications, games, and the AI chatbot.
+- Features like games, home page, and AI chatbot are run on the live server: `http://127.0.0.1:5500`.
 
-cd backend
+# 🛠️ Technologies Used
 
-Install the dependencies:
+## Frontend
 
-npm install
+- **React with Vite**: For building the user interface.
+- **Material-UI**: For UI components and styling.
+- **Redux Toolkit**: For state management.
 
-Create a .env file based on .sampleEnv and configure your environment variables.
+## Backend
 
-Start the backend server :
+- **Node.js and Express.js**: For building the server and API.
+- **MongoDB**: As the database for storing application data.
+- **Socket.IO**: For real-time communication between clients and the server.
 
-npm run dev
+## Others
 
-##🔧 Frontend Setup
-Navigate to the frontend directory:
-cd backend
+- **Cloudinary**: For handling file uploads.
+- **JWT (JSON Web Tokens)**: For authentication and securing user sessions.
 
-Install the dependencies:
-npm install
+# 👥 Teammates
 
-Create a .env file based on .sampleEnv and configure your environment variables.
+- **Dawood Mehmood Ch**
+- **Muhammad Uzair**
+- **Abdul-Rehman**
 
-Start the backend server :
-npm run dev
+# 🏆 Acknowledgements
 
-Usage
-Open your browser and navigate to http://localhost:5173 to access the frontend. 
-Register or log in to start chatting with friends. Explore features like group chats, notifications, games, and the AI chatbot.
-Features like games, home_page, AI Chatbot are run in live server http://127.0.0.1:5500
-
-#🛠️ Technologies Used
-##Frontend:
-React with Vite: For building the user interface.
-Material-UI: For UI components and styling.
-Redux Toolkit: For state management.
-
-##Backend:
-Node.js and Express.js: For building the server and API.
-MongoDB: As the database for storing application data.
-Socket.IO: For real-time communication between clients and the server.
-Others:
-Cloudinary: For handling file uploads.
-JWT (JSON Web Tokens): For authentication and securing user sessions.
-
-
-#👥 Teammates
-Dawood Mehmood Ch
-Muhammad Uzair
-Abdul-Rehman
-
-#Acknowledgements
 Special thanks to the open-source community for providing the tools and libraries used in this project.
