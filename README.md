@@ -15,25 +15,35 @@ Group Chats: Create and manage group chats.
 Notifications: Receive alerts for new messages and friend requests.
 Interactive Games: Enjoy games like Hangman and Tic Tac Toe.
 AI Chat: Interact with a smart AI chatbot.
+
 🚀 Installation Guide
 🔧 Backend Setup
 Navigate to the backend directory:
 cd backend
+
 Install the dependencies:
 npm install
+
 Create a .env file based on .sampleEnv and configure your environment variables.
+
 Start the backend server :
 npm run dev
+
 🔧 Frontend Setup
 Navigate to the frontend directory:
 cd backend
+
 Install the dependencies:
 npm install
+
 Create a .env file based on .sampleEnv and configure your environment variables.
+
 Start the backend server :
 npm run dev
+
 Usage
-Open your browser and navigate to http://localhost:5173 to access the frontend. Register or log in to start chatting with friends. Explore features like group chats, notifications, games, and the AI chatbot.
+Open your browser and navigate to http://localhost:5173 to access the frontend. 
+Register or log in to start chatting with friends. Explore features like group chats, notifications, games, and the AI chatbot.
 Features like games, home_page, AI Chatbot are run in live server http://127.0.0.1:5500
 
 🛠️ Technologies Used
@@ -41,6 +51,7 @@ Frontend:
 React with Vite: For building the user interface.
 Material-UI: For UI components and styling.
 Redux Toolkit: For state management.
+
 Backend:
 Node.js and Express.js: For building the server and API.
 MongoDB: As the database for storing application data.
